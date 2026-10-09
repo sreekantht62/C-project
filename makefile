@@ -9,3 +9,7 @@ fact.o:fact.c
 	gcc -c fact.c
 pal.o:pal.c
 	gcc -c pal.c
+
+clean:
+	rm -rf *.o ABC.exe
+
